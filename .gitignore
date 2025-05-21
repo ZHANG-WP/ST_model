@@ -1,7 +1,6 @@
 /new_dicom_1
 /nnunetV2_tmp
 /outdir
-/QT_complet
 /dataset/train_data
 *.nrrd
 *.pth
