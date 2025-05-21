@@ -1,0 +1,32 @@
+semi_setting=
+'/Users/andy/Desktop/git-respostory/ST_model/dataset/splits/pascal/1_8/split_0'
+export semi_setting
+
+export semi_setting = 'C:\Users\User\Desktop\ST_model\dataset\splits\pascal\1_8\split_0'
+
+CUDA_VISIBLE_DEVICES=0,1 
+python -W ignore main.py \ --dataset pascal --data-root C:/Users/User/Desktop/ST_model/dataset/splits/pascal \ --batch-size 16 --backbone resnet50 --model deeplabv3plus \ --labeled-id-path C:/Users/User/Desktop/ST_model/dataset/splits/pascal /1_8/split_0/labeled.txt \ --unlabeled-id-path C:/Users/User/Desktop/ST_model/dataset/splits/pascal /1_8/split_0/unlabeled.txt \ --pseudo-mask-path outdir/pseudo_masks/ Users/User/Desktop/ST_model/dataset/splits/pascal /1_8/split_0 \ --save-path outdir/models/ Users/User/Desktop/ST_model/dataset/splits/pascal /1_8/split_0
+
+python -W ignore main.py \ --dataset pascal --data-root C:/Users/User/Desktop/ST_model/dataset/splits/pascal \ --batch-size 16 --backbone resnet50 --model deeplabv3plus \ --labeled-id-path dataset/splits/pascal /1_8/split_0/labeled.txt \ --unlabeled-id-path dataset/splits/pascal /1_8/split_0/unlabeled.txt \ --pseudo-mask-path outdir/pseudo_masks/Users/andy/Desktop/git-respostory/ST_model/dataset/splits/pascal/1_8/split_0\ --save-path outdir/models/Users/andy/Desktop/git-respostory/ST_model/dataset/splits/pascal/1_8/split_0
+
+
+python -W ignore main.py
+--dataset pascal 
+
+--data-root C:/Users/User/Desktop/ST_model/dataset/splits/pascal 
+
+--batch-size 16 
+
+--backbone resnet50 
+
+--model deeplabv3plus 
+
+--labeled-id-path C:/Users/User/Desktop/ST_model/dataset/splits/pascal /1_8/split_0/labeled.txt 
+
+--unlabeled-id-path C:/Users/User/Desktop/ST_model/dataset/splits/pascal /1_8/split_0/unlabeled.txt 
+
+--pseudo-mask-path outdir/pseudo_masks/Users/User/Desktop/ST_model
+/dataset/splits/pascal /1_8/split_0 
+
+--save-path outdir/models/ Users/User/Desktop/ST_model/dataset/splits/pascal /1_8/split_0
+
